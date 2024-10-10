@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/fe/6a/27/fe6a270e9e693b5c2413f4629c7512b3.jpg);
+}
+
+.box {
+    width: 50%;
+    height: auto;
+    background: 200px beige;
+    border: 5px solid goldenrod;
+    object-position: center;
+    margin: auto;
+    padding: 40px;
+    padding-top: 20px;
+    box-shadow: 40px;
+    
+}
+
+.box {
+    font-style:oblique;
+    text-indent: 40px;
+}
+
+.box p {
+    text-align: center;
+    font-style:initial;
+    font-size:x-large;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(156, 235, 156);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}

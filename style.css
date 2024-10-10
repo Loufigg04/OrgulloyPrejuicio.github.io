@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://i.pinimg.com/564x/f8/2a/5c/f82a5cc25914385c4ef28ea888e3598e.jpg);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+.book {
+    width: 400px;
+    height: 600px;
+    perspective: 1000px;
+    background-color: #ccc;
+    
+}
+.page {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://m.media-amazon.com/images/I/71TutMCY1VL._AC_UF1000,1000_QL80_.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    position: relative;
+    transform-origin: left;
+    transition: transform 1s;
+
+}
+.page:hover {
+    transform: rotateY(-180deg);
+}
